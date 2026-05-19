@@ -18,17 +18,17 @@
 class Sensor : public EasyC
 {
   public:
-  /**
-   * @brief                   Sensor specific native constructor.
-   *
-   * @param int _pin          Example parameter.
-   */
+    /**
+     * @brief                   Sensor specific native constructor.
+     *
+     * @param int _pin          Example parameter.
+     */
     Sensor(int _pin);
 
   protected:
-  /**
-   * @brief                   Overloaded function for virtual in base class to initialize sensor specific.
-   */
+    /**
+     * @brief                   Overloaded function for virtual in base class to initialize sensor specific.
+     */
     void initializeNative();
 
   private:
