@@ -1,37 +1,38 @@
-# NAZIV PROIZVODA Arduino library
+# Button LED Buzzer Board Arduino Library
 
-[![Make docs and publish to GitHub Pages](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml)
-[![Arduino Library Manager Compatibility](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/arduino_lint.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/arduino_lint.yml)
-[![ATtiny Firmware Compile Test](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/attiny_test.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/attiny_test.yml)
+[![Make docs and publish to GitHub Pages](https://github.com/SolderedElectronics/Soldered-Button-LED-Buzzer-Board-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-Button-LED-Buzzer-Board-Arduino-Library/actions/workflows/make_docs.yml)
+[![Arduino Library Manager Compatibility](https://github.com/SolderedElectronics/Soldered-Button-LED-Buzzer-Board-Arduino-Library/actions/workflows/arduino_lint.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-Button-LED-Buzzer-Board-Arduino-Library/actions/workflows/arduino_lint.yml)
+[![ATtiny Firmware Compile Test](https://github.com/SolderedElectronics/Soldered-Button-LED-Buzzer-Board-Arduino-Library/actions/workflows/attiny_test.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-Button-LED-Buzzer-Board-Arduino-Library/actions/workflows/attiny_test.yml)
 
 | ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :------------------------------------------------------------------------------------: |
-|                      [NAZIV PROIZVODA](https://www.solde.red/SKU)                      |
+|                      [Button LED Buzzer Board](https://www.solde.red/SKU)              |
 
-OPIS PROIZVODA + LINK NA [Qwiic ecosystem](https://soldered.com/collections/qwiic-ecosystem).
+The Button LED Buzzer Board features three buttons, three WS2812B RGB LEDs and a passive buzzer, all controlled via I2C through an ATtiny404 co-processor. It is compatible with the [Qwiic / easyC ecosystem](https://soldered.com/collections/qwiic-ecosystem).
 
 ### Repository Contents
 
 - **/src** - source files for the library (.h & .cpp)
 - **/examples** - examples for using the library
+- **/extras/attiny_firmware** - ATtiny404 firmware source
 - **_other_** - _keywords_ file highlights function words in your IDE, _library.properties_ enables implementation with Arduino Library Manager.
 
 ### Hardware design
 
-You can find hardware design for this board in _NAZIV PROIZVODA_ hardware repository.
+You can find hardware design for this board in _Button LED Buzzer Board_ hardware repository.
 
 ### Documentation
 
-Access Arduino library documentation [here](https://SolderedElectronics.github.io/Soldered-Generic-Arduino-Library/).
+Access Arduino library documentation [here](https://SolderedElectronics.github.io/Soldered-Button-LED-Buzzer-Board-Arduino-Library/).
 
-- Tutorial for using the NAZIV PROIZVODA board
+- Tutorial for using the Button LED Buzzer Board
 - Installing an Arduino library
 
 ### Board compatibility
 
 The library is compatible with board & microcontroller families shown in green below:
 
-[![Compile Sketches](http://github-actions.40ants.com/SolderedElectronics/Soldered-Generic-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/compile_test.yml)
+[![Compile Sketches](http://github-actions.40ants.com/SolderedElectronics/Soldered-Button-LED-Buzzer-Board-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/SolderedElectronics/Soldered-Button-LED-Buzzer-Board-Arduino-Library/actions/workflows/compile_test.yml)
 
 ### About Soldered
 
@@ -42,11 +43,6 @@ At Soldered, we design and manufacture a wide selection of electronic products t
 - [Web Store](https://www.soldered.com/shop)
 - [Tutorials & Projects](https://soldered.com/learn)
 - [Documentation](https://docs.soldered.com)
-
-### Original source
-
-​
-This library is possible thanks to original [arduino-mcp23017](https://github.com/blemasle/arduino-mcp23017) library. Thank you, blemasle.
 
 ### Open-source license
 
