@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['initializenative_0',['initializeNative',['../class_sensor.html#adb537c76173019fddf84b2d89e6c6559',1,'Sensor::initializeNative()'],['../class_easy_c.html#a48c8aa55d48ef0cc11047cab0735c998',1,'EasyC::initializeNative()']]]
+  ['isbutton1pressed_0',['isButton1Pressed',['../class_button_led_buzzer_board___soldered.html#aea22377d3e1e1708754ec133311506fb',1,'ButtonLedBuzzerBoard_Soldered']]],
+  ['isbutton2pressed_1',['isButton2Pressed',['../class_button_led_buzzer_board___soldered.html#a50a24dd7de10a37fe2b0a9dd7cfff2c2',1,'ButtonLedBuzzerBoard_Soldered']]],
+  ['isbutton3pressed_2',['isButton3Pressed',['../class_button_led_buzzer_board___soldered.html#a5e02cc156619b34878b72467ea844ff1',1,'ButtonLedBuzzerBoard_Soldered']]]
 ];

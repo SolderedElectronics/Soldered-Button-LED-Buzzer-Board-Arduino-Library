@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['begin_0',['begin',['../class_easy_c.html#a1b5a82b8a59daea79de76e496457e176',1,'EasyC::begin()'],['../class_easy_c.html#a9e71467da6f38cbe47b10e96694a4f91',1,'EasyC::begin(uint8_t _address)']]]
+  ['_5fwriteleds_0',['_writeLEDs',['../class_button_led_buzzer_board___soldered.html#ae13576e120f110013c54d561c3919f2b',1,'ButtonLedBuzzerBoard_Soldered']]]
 ];

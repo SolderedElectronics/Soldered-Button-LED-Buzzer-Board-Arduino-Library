@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>16x2 easyC LCD Library: Class Members - Functions</title>
+<title>Button LED Buzzer Board Arduino Library: Class Members - Functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -29,9 +29,9 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">16x2 easyC LCD Library<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">Button LED Buzzer Board Arduino Library<span id="projectnumber">&#160;1.0.0</span>
    </div>
-   <div id="projectbrief">This is a library for the 16x2 easyC LCD Module</div>
+   <div id="projectbrief">Arduino library for Soldered Button, LED &amp; Buzzer Board (ATtiny404)</div>
   </td>
  </tr>
  </tbody>
@@ -93,14 +93,17 @@ $(function(){initNavTree('functions_func.html','',''); });
 
 <div class="contents">
 <div class="textblock">Here is a list of all functions with links to the classes they belong to:</div><ul>
-<li>begin()&#160;:&#160;<a class="el" href="class_easy_c.html#a1b5a82b8a59daea79de76e496457e176">EasyC</a></li>
-<li>EasyC()&#160;:&#160;<a class="el" href="class_easy_c.html#a2ea672a225a32eab52c2b20733fd26bd">EasyC</a></li>
-<li>initializeNative()&#160;:&#160;<a class="el" href="class_easy_c.html#a48c8aa55d48ef0cc11047cab0735c998">EasyC</a>, <a class="el" href="class_sensor.html#adb537c76173019fddf84b2d89e6c6559">Sensor</a></li>
-<li>readData()&#160;:&#160;<a class="el" href="class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a">EasyC</a></li>
-<li>readRegister()&#160;:&#160;<a class="el" href="class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376">EasyC</a></li>
-<li>sendAddress()&#160;:&#160;<a class="el" href="class_easy_c.html#a10aa7df19e8c7bf12cd720b662f317a3">EasyC</a></li>
-<li>sendData()&#160;:&#160;<a class="el" href="class_easy_c.html#afe8aa014ae53cad3b0f3c42f59277195">EasyC</a></li>
-<li>Sensor()&#160;:&#160;<a class="el" href="class_sensor.html#a2b8ea6b15267f6fa0e263f57a09f6b62">Sensor</a></li>
+<li>_writeLEDs()&#160;:&#160;<a class="el" href="class_button_led_buzzer_board___soldered.html#ae13576e120f110013c54d561c3919f2b">ButtonLedBuzzerBoard_Soldered</a></li>
+<li>begin()&#160;:&#160;<a class="el" href="class_button_led_buzzer_board___soldered.html#ad07e52906d3fe6184d38c6058eed859c">ButtonLedBuzzerBoard_Soldered</a></li>
+<li>ButtonLedBuzzerBoard_Soldered()&#160;:&#160;<a class="el" href="class_button_led_buzzer_board___soldered.html#a819c5e6485067936f44254bae29a5907">ButtonLedBuzzerBoard_Soldered</a></li>
+<li>isButton1Pressed()&#160;:&#160;<a class="el" href="class_button_led_buzzer_board___soldered.html#aea22377d3e1e1708754ec133311506fb">ButtonLedBuzzerBoard_Soldered</a></li>
+<li>isButton2Pressed()&#160;:&#160;<a class="el" href="class_button_led_buzzer_board___soldered.html#a50a24dd7de10a37fe2b0a9dd7cfff2c2">ButtonLedBuzzerBoard_Soldered</a></li>
+<li>isButton3Pressed()&#160;:&#160;<a class="el" href="class_button_led_buzzer_board___soldered.html#a5e02cc156619b34878b72467ea844ff1">ButtonLedBuzzerBoard_Soldered</a></li>
+<li>readButtons()&#160;:&#160;<a class="el" href="class_button_led_buzzer_board___soldered.html#a86d73db2fe0e2c1b0fd3d447d685703d">ButtonLedBuzzerBoard_Soldered</a></li>
+<li>setAllLEDs()&#160;:&#160;<a class="el" href="class_button_led_buzzer_board___soldered.html#ac2269d318c5ee15e7e764abb3b8cdce1">ButtonLedBuzzerBoard_Soldered</a></li>
+<li>setBuzzer()&#160;:&#160;<a class="el" href="class_button_led_buzzer_board___soldered.html#a1bd7ef8169c0d3d83a53690c44faf543">ButtonLedBuzzerBoard_Soldered</a></li>
+<li>setLED()&#160;:&#160;<a class="el" href="class_button_led_buzzer_board___soldered.html#aba5ffe112850bebabe0b8fbdfeb167d7">ButtonLedBuzzerBoard_Soldered</a></li>
+<li>setLEDs()&#160;:&#160;<a class="el" href="class_button_led_buzzer_board___soldered.html#a03c0a9854fd9027564776f80535c3362">ButtonLedBuzzerBoard_Soldered</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -110,7 +113,7 @@ $(function(){initNavTree('functions_func.html','',''); });
     <!-- id is needed for treeview function! -->
     <ul>
         <li class="footer">
-            Generated on <span class="datetime"></span> for 16x2 easyC LCD Library by <a href="http://www.doxygen.org/index.html">
+            Generated on <span class="datetime"></span> for Button LED Buzzer Board Arduino Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.16.1.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.

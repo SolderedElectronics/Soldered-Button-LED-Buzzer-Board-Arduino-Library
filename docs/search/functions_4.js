@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['sendaddress_0',['sendAddress',['../class_easy_c.html#a10aa7df19e8c7bf12cd720b662f317a3',1,'EasyC']]],
-  ['senddata_1',['sendData',['../class_easy_c.html#afe8aa014ae53cad3b0f3c42f59277195',1,'EasyC']]],
-  ['sensor_2',['Sensor',['../class_sensor.html#a2b8ea6b15267f6fa0e263f57a09f6b62',1,'Sensor']]]
+  ['setallleds_0',['setAllLEDs',['../class_button_led_buzzer_board___soldered.html#ac2269d318c5ee15e7e764abb3b8cdce1',1,'ButtonLedBuzzerBoard_Soldered']]],
+  ['setbuzzer_1',['setBuzzer',['../class_button_led_buzzer_board___soldered.html#a1bd7ef8169c0d3d83a53690c44faf543',1,'ButtonLedBuzzerBoard_Soldered']]],
+  ['setled_2',['setLED',['../class_button_led_buzzer_board___soldered.html#aba5ffe112850bebabe0b8fbdfeb167d7',1,'ButtonLedBuzzerBoard_Soldered']]],
+  ['setleds_3',['setLEDs',['../class_button_led_buzzer_board___soldered.html#a03c0a9854fd9027564776f80535c3362',1,'ButtonLedBuzzerBoard_Soldered']]]
 ];

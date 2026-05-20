@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['easyc_0',['EasyC',['../class_easy_c.html',1,'']]]
+  ['buttonledbuzzerboard_5fsoldered_0',['ButtonLedBuzzerBoard_Soldered',['../class_button_led_buzzer_board___soldered.html',1,'']]]
 ];
