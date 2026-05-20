@@ -1,17 +1,33 @@
 ##################################################
-# Syntax Coloring Map For Obstacle-Sensor-SOLDERED
+# Syntax Coloring Map For Button LED Buzzer Board
 ##################################################
 
 ##################################################
 # Datatypes (KEYWORD1)
 ##################################################
 
+ButtonLedBuzzerBoard_Soldered	KEYWORD1
+
 ##################################################
 # Methods and Functions (KEYWORD2)
 ##################################################
 
 begin	KEYWORD2
+setLED	KEYWORD2
+setAllLEDs	KEYWORD2
+setLEDs	KEYWORD2
+setBuzzer	KEYWORD2
+readButtons	KEYWORD2
+isButton1Pressed	KEYWORD2
+isButton2Pressed	KEYWORD2
+isButton3Pressed	KEYWORD2
 
 ##################################################
 # Constants (LITERAL1)
 ##################################################
+
+BLB_DEFAULT_ADDRESS	LITERAL1
+BLB_REG_BUTTONS	LITERAL1
+BLB_REG_LED	LITERAL1
+BLB_REG_BUZZER	LITERAL1
+BLB_NUM_LEDS	LITERAL1
