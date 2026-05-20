@@ -35,9 +35,8 @@ class ButtonLedBuzzerBoard_Soldered
 
     void setLED(uint8_t index, uint8_t r, uint8_t g, uint8_t b);
     void setAllLEDs(uint8_t r, uint8_t g, uint8_t b);
-    void setLEDs(uint8_t r1, uint8_t g1, uint8_t b1,
-                 uint8_t r2, uint8_t g2, uint8_t b2,
-                 uint8_t r3, uint8_t g3, uint8_t b3);
+    void setLEDs(uint8_t r1, uint8_t g1, uint8_t b1, uint8_t r2, uint8_t g2, uint8_t b2, uint8_t r3, uint8_t g3,
+                 uint8_t b3);
 
     void setBuzzer(uint16_t freq);
 

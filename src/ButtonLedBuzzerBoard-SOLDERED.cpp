@@ -31,8 +31,9 @@ void ButtonLedBuzzerBoard_Soldered::_writeLEDs()
 
 void ButtonLedBuzzerBoard_Soldered::setLED(uint8_t index, uint8_t r, uint8_t g, uint8_t b)
 {
-    if (index >= BLB_NUM_LEDS) return;
-    _ledBuf[index * 3]     = r;
+    if (index >= BLB_NUM_LEDS)
+        return;
+    _ledBuf[index * 3] = r;
     _ledBuf[index * 3 + 1] = g;
     _ledBuf[index * 3 + 2] = b;
     _writeLEDs();
@@ -42,20 +43,25 @@ void ButtonLedBuzzerBoard_Soldered::setAllLEDs(uint8_t r, uint8_t g, uint8_t b)
 {
     for (uint8_t i = 0; i < BLB_NUM_LEDS; i++)
     {
-        _ledBuf[i * 3]     = r;
+        _ledBuf[i * 3] = r;
         _ledBuf[i * 3 + 1] = g;
         _ledBuf[i * 3 + 2] = b;
     }
     _writeLEDs();
 }
 
-void ButtonLedBuzzerBoard_Soldered::setLEDs(uint8_t r1, uint8_t g1, uint8_t b1,
-                                            uint8_t r2, uint8_t g2, uint8_t b2,
+void ButtonLedBuzzerBoard_Soldered::setLEDs(uint8_t r1, uint8_t g1, uint8_t b1, uint8_t r2, uint8_t g2, uint8_t b2,
                                             uint8_t r3, uint8_t g3, uint8_t b3)
 {
-    _ledBuf[0] = r1; _ledBuf[1] = g1; _ledBuf[2] = b1;
-    _ledBuf[3] = r2; _ledBuf[4] = g2; _ledBuf[5] = b2;
-    _ledBuf[6] = r3; _ledBuf[7] = g3; _ledBuf[8] = b3;
+    _ledBuf[0] = r1;
+    _ledBuf[1] = g1;
+    _ledBuf[2] = b1;
+    _ledBuf[3] = r2;
+    _ledBuf[4] = g2;
+    _ledBuf[5] = b2;
+    _ledBuf[6] = r3;
+    _ledBuf[7] = g3;
+    _ledBuf[8] = b3;
     _writeLEDs();
 }
 
